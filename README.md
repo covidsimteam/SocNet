@@ -7,3 +7,21 @@ This repo contains the neo4j graph model and a corresponding REST API, which can
 
 To use this repo locally, please install Neo4j Desktop including a Neo4j 4.0.1+ installation and run the gradle task to 
 spin up a spring boot server (on port 8069 by default).
+
+## Repo stats
+
+```
+-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+Bourne Shell                     1             21             36            126
+Java                             5             40              4            125
+DOS Batch                        1             25              2             76
+Gradle                           2              5              5             24
+HTML                             1              3              0             13
+Markdown                         1              3              0              6
+-------------------------------------------------------------------------------
+SUM:                            11             97             47            370
+-------------------------------------------------------------------------------
+
+```
