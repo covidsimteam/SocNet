@@ -65,13 +65,11 @@ public class PhoneUser {
     }
 
     //Required for Neo4j API
-    public PhoneUser() {
-    }
+    public PhoneUser() {}
 
     public PhoneUser(String cellNumber) {
         this.cellNumber = cellNumber;
     }
-
 
     public Long getId() {
         return id;
