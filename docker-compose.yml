@@ -1,7 +1,7 @@
 version: '2'
 services:
   web:
-    image: socnetgen:latest
+    build: .
     ports:
       - 8069:8069
     depends_on:

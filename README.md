@@ -8,6 +8,10 @@ This repo contains the neo4j graph model and a corresponding REST API, which can
 To use this repo locally, please install Neo4j Desktop including a Neo4j 4.0.1+ installation and run the gradle task to 
 spin up a spring boot server (on port 8069 by default).
 
+## Usage
+
+You can use `docker-compose -f docker-compose.yml up` to get started. neo4j and spark are not yet dockerized.
+
 ## Repo stats
 
 ```
